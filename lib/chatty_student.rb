@@ -1,7 +1,7 @@
 require_relative "./student.rb"
 
 
-class ChattyStudent 
+class ChattyStudent < Student
   
   def hello 
     super 
@@ -9,7 +9,7 @@ class ChattyStudent
   end 
   
   def raise_hand 
-    super.times do 
+    10.times do super 
   end 
   
 end 
